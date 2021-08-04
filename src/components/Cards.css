@@ -1,9 +1,11 @@
 .cards {
     padding: 4rem;
+    /* background: #272b34; */
     background: #fff;
   }
   
   h1 {
+    /* color: #fff; */
     text-align: center;
   }
   
@@ -36,7 +38,8 @@
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    box-shadow: 0 6px 20px rgba(56, 126, 255, 0.562);
+    /* box-shadow: 0 6px 20px #0f0f0fb0; */
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
@@ -66,6 +69,7 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
+    /* background-color: #fe8033; */
     background-color: #1f98f4;
     box-sizing: border-box;
   }
@@ -94,6 +98,7 @@
   }
   
   .cards__item__text {
+    /* color:#fff; */
     color: #252e48;
     font-size: 18px;
     line-height: 24px;

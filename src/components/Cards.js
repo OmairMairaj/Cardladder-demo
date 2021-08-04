@@ -5,26 +5,26 @@ import './Cards.css'
 function Cards() {
     return (
         <div className='cards'>
-            <h1>Check out these EPIC destinations!</h1>
+            <h1>Check out these EPIC Cards!</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
-                        <CardItem src="/images/img-9.jpg" text="Explore the hidden waterfall deep inside the Amazon Jungle"
-                        label='Adventure' path="/categories"
+                        <CardItem src="/images/unnamed.png" text="Your favourite characters from every era are all here."
+                        label='Dragon Ball' path="/shop"
                         />
-                        <CardItem src="/images/img-2.jpg" text="Travel through the Islands of Bali in a Private Cruise"
-                        label='Luxury' path="/categories"
+                        <CardItem src="/images/SWSH6_PC-thumb-1280x458-16623.png" text="Check out the Featured cards from the Chilling Reign Series"
+                        label='Pokemon' path="/shop"
                         />
                     </ul>
                     <ul className="cards__items">
-                        <CardItem src="/images/img-3.jpg" text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
-                        label='Mystery' path="/categories"
+                        <CardItem src="/images/TF_TCG_Facebook_Banner-Bumblebee_1300x539.webp" text="Transformers trading cards! TIL ALL ARE FANS!"
+                        label='Transformers' path="/shop"
                         />
-                        <CardItem src="/images/img-4.jpg" text="Experience Football on top of the Himalayan Mountains"
-                        label='Adventure' path="/categories"
+                        <CardItem src="/images/splashBanner_yugioh.jpg" text="Browse the latest YuGiOh! Single Trading Cards"
+                        label='YuGiOh!' path="/shop"
                         />
-                        <CardItem src="/images/img-8.jpg" text="Ride throught the Sahara Desert on a guided Camel Tour"
-                        label='Adrenaline' path="/categories"
+                        <CardItem src="/images/flesh_and_blood_tcg_monarch_search_300x158_04302021.webp" text="The New Classic TCG. Flesh and Blood! Monarch Out Now!"
+                        label='Flesh and Blood' path="/shop"
                         />
                     </ul>
                 </div>

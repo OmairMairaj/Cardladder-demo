@@ -1,6 +1,17 @@
 import React from 'react'
 import '../App.css'
+// import signpic from '../assets/images/signup.svg';
 
-export default function SignUp() {
-    return <h1 className='sign-up'>SIGNUP</h1>
+const SignUp = () => {
+   
+    return (
+        <>
+        <h1 className='sign-up'>SIGNUP</h1>  
+        <section className="signup">
+            
+        </section> 
+        </>   
+    )
 }
+
+export default SignUp;
